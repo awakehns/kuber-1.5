@@ -10,17 +10,19 @@
 
 [backend-deployment.yaml](backend-deployment.yaml)
 
-![kube-2](/img/kube-2.png)
-
 `kubectl get pods`
 
 `kubectl exec -it frontend-78dc97d455-4242j -- bash`
 
 `curl backend-service:8080`
 
+![curl-1](/img/curl-1.png)
+
 `kubectl exec -it backend-787749949f-g4c96 -- bash`
 
 `curl frontend-service:80`
+
+![curl-2](/img/curl-2.png)
 
 
 
