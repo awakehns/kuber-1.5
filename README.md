@@ -12,6 +12,14 @@
 
 `kubectl get pods`
 
+`nano frontend-service.yaml`
+
+[frontend-service.yaml](frontend-service.yaml)
+
+`nano backend-service.yaml`
+
+[backend-service.yaml](backend-service.yaml)
+
 `kubectl exec -it frontend-78dc97d455-4242j -- bash`
 
 `curl backend-service:8080`
