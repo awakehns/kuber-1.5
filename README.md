@@ -38,8 +38,14 @@
 
 `kubectl apply -f ingress.yaml`
 
-`minikube tunnel`
-
 `kubectl get ingress`
+
+`minikube ip`
+
+![ip](/img/ip.png)
+
+`curl http://192.168.49.2/`
+
+`curl http://192.168.49.2/api`
 
 ![kube-1](/img/kube-1.png)
